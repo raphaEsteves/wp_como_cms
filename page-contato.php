@@ -1,7 +1,7 @@
 <?php
-//Template Name: Contato;
+//Template Name: Contato
 
-get_footer(); ?>
+get_header(); ?>
 		<section class="introducao-interna interna_contato">
 			<div class="container">
 				<h1>Contato</h1>
