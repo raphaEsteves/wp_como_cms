@@ -37,14 +37,14 @@ get_header(); ?>
 				<span>Rio de Janeiro - RJ - Brasil</span>
 				<h3>Redes Sociais</h3>
 				<ul>
-					<li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.png" alt="Facebook Bikcraft"></a></li>
-					<li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.png" alt="Instagram Bikcraft"></a></li>
-					<li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.png" alt="Twitter Bikcraft"></a></li>
+					<li><a href="http://facebook.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/redes-sociais/facebook.png" alt="Facebook Bikcraft"></a></li>
+					<li><a href="http://instagram.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/redes-sociais/instagram.png" alt="Instagram Bikcraft"></a></li>
+					<li><a href="http://twitter.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/redes-sociais/twitter.png" alt="Twitter Bikcraft"></a></li>
 				</ul>
 			</div>
 		</section>
 
 		<section class="container contato_mapa">
-			<a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
+			<a href="http://google.com" target="_blank" class="grid-16"><img src="<?php echo get_template_directory_uri(); ?>/img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
 		</section>
 		<?php get_footer(); ?>

@@ -3,7 +3,6 @@
 
 get_header(); 
 ?>
-
 		<section class="introducao">
 			<div class="container">
 				<h1>Bicicletas Feitas a Mão</h1>
@@ -21,7 +20,7 @@ get_header();
 
 				<li class="grid-1-3">
 					<div class="produtos_icone">
-						<img src="img/produtos/passeio.png" alt="Bikcraft Passeio">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/produtos/passeio.png" alt="Bikcraft Passeio">
 					</div>
 					<h3>Passeio</h3>
 					<p>Muito melhor do que passear pela orla a vidros fechados.</p>
@@ -29,7 +28,7 @@ get_header();
 
 				<li class="grid-1-3">
 					<div class="produtos_icone">
-						<img src="img/produtos/esporte.png" alt="Bikcraft Esporte">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/produtos/esporte.png" alt="Bikcraft Esporte">
 					</div>
 					<h3>Esporte</h3>
 					<p>Mais rápida do que Forrest Gump, ninguém vai pegar você.</p>
@@ -37,7 +36,7 @@ get_header();
 
 				<li class="grid-1-3">
 					<div class="produtos_icone">
-						<img src="img/produtos/retro.png" alt="Bikcraft Retrô">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/produtos/retro.png" alt="Bikcraft Retrô">
 					</div>
 					<h3>Retrô</h3>
 					<p>O passado volta para lembrarmos o que devemos fazer no futuro.</p>
