@@ -2,12 +2,10 @@
 //Template Name: Produtos
 
 get_header(); ?>
-		<section class="introducao-interna interna_produtos">
-			<div class="container">
-				<h1>Produtos</h1>
-				<p>conheça todos os nossos produtos</p>
-			</div>
-		</section>
+
+	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+	<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
 
 		<section class="container produto_item animar-interno">
 			<div class="grid-11">
@@ -63,7 +61,7 @@ get_header(); ?>
 			</div>
 		</section>
 
-		<section class="orcamento">
+		<section class="orcamento" id="orcamento">
 			<div class="container">
 				<h2 class="subtitulo">Orçamento</h2>
 				<form action="enviar.php" method="post" name="form" class="formphp form grid-8">
@@ -100,4 +98,5 @@ get_header(); ?>
 				</div>
 			</div>
 		</section>
+	<?php endwhile; endif; ?>
 <?php get_footer(); ?>
