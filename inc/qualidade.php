@@ -15,8 +15,13 @@
 			<p>Além de ajudar a cuidar do meio ambiente, tirando carros da rua, toda a produção é sustentável.</p>
 		</li>
 	</ul>
+	
+	<!-- Retira o botão para página 'Sobre' da página 'Sobre' -->
+	<?php if(!is_page('sobre')){ ?>
 	<div class="call">
 		<p>conheça mais a nossa história</p>
 		<a href="sobre.html" class="btn btn-preto">Sobre</a>
 	</div>
+	<?php }?>
+
 </section>
