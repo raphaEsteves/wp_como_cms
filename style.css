@@ -1,7 +1,7 @@
+@import 'css/normalize.css';
 @import 'css/reset.css';
 @import 'css/contato.css';
 @import 'css/grid.css';
-@import 'css/normalize.css';
 @import 'css/portfolio.css';
 @import 'css/produtos.css';
 @import 'css/responsivo.css';
@@ -15,9 +15,16 @@ Author URI: http://origamid.com
 Descriptioin: Tema criado durante estudo de wordpress como CMS.
 Version: 1.0
 */
+/* Estilos ADM Wordpress*/
 
+.customize-support .header{
+	margin-top: 32px;
+}
 /* Estilos Gerais */
-
+.titulo-posts{
+	display: block;
+	margin: 100px;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -153,8 +160,8 @@ img {
 	color: #FFF;
 }
 
-/* Introdução */
 
+/* Introdução */
 .introducao {
 	width: 100%;
 	height: 380px;
