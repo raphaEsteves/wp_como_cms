@@ -30,7 +30,6 @@
 				</a>
 				<nav class="grid-12 header_menu">
 					<ul>
-						<li><a href="/publicacoes/">Posts</a></li>
 						<li><a href="/sobre/">Sobre</a></li>
 						<li><a href="/produtos/">Produtos</a></li>
 						<li><a href="/portfolio/">Portfólio</a></li>
