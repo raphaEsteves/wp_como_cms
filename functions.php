@@ -24,6 +24,7 @@ add_action( 'after_setup_theme', 'my_custom_sizes');
 
 // Custom post type
 // https://codex.wordpress.org/Function_Reference/register_post_type
+// Página de custom post single-slug.php (Nesse caso, single-produtos.php)
 
 function custom_post_type_produtos() {
 	register_post_type('produtos', array(
