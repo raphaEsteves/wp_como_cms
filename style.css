@@ -243,6 +243,9 @@ img {
 	text-align: center;
 }
 
+.produtos_lista a{
+	color: #000;
+}
 .produtos_lista li img {
 	margin: 0 auto;
 }
